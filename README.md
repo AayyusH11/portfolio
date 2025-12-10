@@ -43,13 +43,13 @@ Most platforms either rely on random matching or lack seamless communication fea
 
 ## 🏃 Running the Project Locally
 
-### 1️⃣ Clone the Repository
+*** Step1️: Clone the Repository***
 
 ```bash
 git clone https://github.com/AayyusH11/LinkUp-Ayush.git
 cd LinkUp-Ayush
 
-### 2️⃣ Environment Variables
+*** Step2: Environment Variables***
 
 Create a .env file inside backend/
 
