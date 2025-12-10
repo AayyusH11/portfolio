@@ -44,6 +44,9 @@ LinkUp solves this by:
 ## Running the Project Locally
 
 # Clone the repository
+ Clone the repository
+
+```bash
 git clone https://github.com/AayyusH11/LinkUp-Ayush.git
 cd LinkUp-Ayush
 
