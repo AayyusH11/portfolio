@@ -11,18 +11,18 @@ This project was built as a learning-focused full-stack application to explore m
 Language learners often struggle to find reliable, real-time speaking partners.  
 Most platforms either rely on random matching or lack seamless communication features.
 
-**LinkUp solves this by:**
-- Allowing users to discover language learners  
-- Sending and accepting friend requests  
-- Enabling trusted one-to-one communication via chat and video calls  
+LinkUp solves this by:
+- Allowing users to discover language learners
+- Sending and accepting friend requests
+- Enabling trusted one-to-one communication via chat and video calls
 
 ---
 
 ## 🚀 Key Features
 
 - Send and receive friend requests  
-- One-to-one real-time chat using **Stream Chat**  
-- One-to-one video calling using **Stream Video**  
+- One-to-one real-time chat using Stream Chat  
+- One-to-one video calling using Stream Video  
 - Real-time online / offline presence  
 - User profiles with language learning information  
 - Secure backend token generation for Stream APIs  
@@ -31,46 +31,53 @@ Most platforms either rely on random matching or lack seamless communication fea
 
 ## 🧰 Tech Stack
 
-- **Frontend:** React.js  
-- **Backend:** Node.js + Express.js  
-- **Chat:** Stream Chat SDK  
-- **Video:** Stream Video SDK  
-- **Database:** MongoDB  
-- **Authentication:** Stream user tokens (JWT-based)  
-- **Deployment:** Render  
+Frontend: React.js  
+Backend: Node.js + Express.js  
+Chat: Stream Chat SDK  
+Video: Stream Video SDK  
+Database: MongoDB  
+Authentication: Stream user tokens (JWT-based)  
+Deployment: Render  
 
 ---
 
 ## 🏃 Running the Project Locally
 
-*** Step1️: Clone the Repository***
+Clone the repository:
 
 ```bash
 git clone https://github.com/AayyusH11/LinkUp-Ayush.git
 cd LinkUp-Ayush
+Create a .env file inside backend/:
 
-*** Step2: Environment Variables***
-
-Create a .env file inside backend/
-
+env
+Copy code
 STREAM_API_KEY=
 STREAM_API_SECRET=
 MONGO_URI=
 JWT_SECRET_KEY=
 NODE_ENV=development
+Create a .env file inside frontend/:
 
-
-Create a .env file inside frontend/
-
+env
+Copy code
 VITE_STREAM_API_KEY=
+Backend setup:
 
-### 3️⃣ Backend Setup
+bash
+Copy code
 cd backend
 npm install
 npm start
+Frontend setup (open a new terminal):
 
-### 4️⃣ Frontend Setup (open a new terminal)
+bash
+Copy code
 cd frontend
 npm install
 npm start
+The application will run at:
 
+arduino
+Copy code
+http://localhost:3000
