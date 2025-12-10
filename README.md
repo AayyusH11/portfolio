@@ -49,7 +49,7 @@ Most platforms either rely on random matching or lack seamless communication fea
 git clone https://github.com/AayyusH11/LinkUp-Ayush.git
 cd LinkUp-Ayush
 
-2️⃣ Environment Variables
+### 2️⃣ Environment Variables
 
 Create a .env file inside backend/
 
@@ -64,12 +64,12 @@ Create a .env file inside frontend/
 
 VITE_STREAM_API_KEY=
 
-3️⃣ Backend Setup
+### 3️⃣ Backend Setup
 cd backend
 npm install
 npm start
 
-4️⃣ Frontend Setup (open a new terminal)
+### 4️⃣ Frontend Setup (open a new terminal)
 cd frontend
 npm install
 npm start
