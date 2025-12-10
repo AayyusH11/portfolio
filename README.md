@@ -44,9 +44,8 @@ Deployment: Render
 ## 🏃 Running the Project Locally
 
 
-```bash
 Clone the repository:
-git clone https://github.com/AayyusH11/LinkUp-Ayush.git
+``` git clone https://github.com/AayyusH11/LinkUp-Ayush.git
 cd LinkUp-Ayush
 
 Create a .env file inside backend/:
@@ -71,5 +70,4 @@ cd frontend
 npm install
 npm start
 
-The application will run at:
-http://localhost:3000
+
