@@ -41,7 +41,31 @@ Deployment: Render
 
 ---
 
-## 🏃 Running the Project Locally
+## 🧪 How to Run Locally
+
+1. **Clone the repo**
+
+   ```
+   git clone https://github.com/AayyusH11/LinkUp-Ayush.git
+   cd LinkUp-Ayush
+   ```
+2. Create a .env file inside backend/:
+
+   ```
+   STREAM_API_KEY=
+   STREAM_API_SECRET=
+   MONGO_URI=
+   JWT_SECRET_KEY=
+   NODE_ENV=development
+   ```
+3. **Start the development server**
+
+   ```
+   npm run dev
+   ```
+
+
+
 
 Clone the repository:
 ```bash
@@ -49,8 +73,4 @@ git clone https://github.com/AayyusH11/LinkUp-Ayush.git
 cd LinkUp-Ayush
 
 Create a .env file inside backend/:
-STREAM_API_KEY=
-STREAM_API_SECRET=
-MONGO_URI=
-JWT_SECRET_KEY=
-NODE_ENV=development
+
