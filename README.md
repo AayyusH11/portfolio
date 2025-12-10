@@ -45,7 +45,7 @@ Deployment: Render
 
 
 Clone the repository:
-``` git clone https://github.com/AayyusH11/LinkUp-Ayush.git
+git clone https://github.com/AayyusH11/LinkUp-Ayush.git
 cd LinkUp-Ayush
 
 Create a .env file inside backend/:
